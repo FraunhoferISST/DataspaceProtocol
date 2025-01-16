@@ -54,10 +54,6 @@ An entity that manages a [=Dataspace=]. The form and capabilities of a Dataspace
 
 A technology system that maintains the state of [=Participants=] in a [=Dataspace=].  The form and capabilities of a Dataspace Registration Service are not covered in these specifications.
 
-<dfn>Identity Provider</dfn>
-
-A trusted technology system that creates, maintains, and manages identity information for a [=Participant=] and [=Participant Agents=].
-
 <dfn>Message</dfn>
 
 An instantiation of a [=Message Type=].
@@ -93,3 +89,7 @@ A set of interactions between a [=Provider=] and [=Consumer=] that give access t
 <dfn>Transfer Process Protocol</dfn>
 
 A set of allowable [=Message Type=] sequences defined as a state machine.
+
+<dfn>Trust Anchor</dfn>
+
+A system that serves as the root of trust and allows for the validation of trust attributes (e.g., identity information) by a [=Participant=] and [=Participant Agents=].

@@ -15,7 +15,7 @@ so-called [=Connectors=], which implement the protocols described above.
 While most interactions take place between [=Connectors=], some interactions with other systems are required.
 The figure below provides an overview on the context of this specification.
 
-An [=Identity Provider=] realizes the required interfaces and provides required information to implement the Trust
+A [=Trust Anchor=] realizes the required interfaces and provides required information to implement the Trust
 Framework of a [=Dataspace=].
 The validation of the identity of a given [=Participant Agent=] and the validation of additional claims is a fundamental
 mechanism. The structure and content of such claims and identities may, however, vary between different [=Dataspaces=],

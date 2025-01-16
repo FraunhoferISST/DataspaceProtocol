@@ -28,11 +28,11 @@ non-normative entities.
 - A [=Participant Agent=] performs tasks such as publishing a [=Catalog=] or engaging in a [=Transfer Process=]. In
   order to accomplish these tasks, a [=Participant Agent=] may use a _**verifiable presentation**_ generated from a
   _**credential**_ obtained from a third-party [=Credential Issuer=]. A [=Participant Agent=] may also use an
-  _**ID token**_ issued by a third-party [=Identity Provider=]. Note that a [=Participant Agent=] is a logical construct
+  _**ID token**_ tied to a third-party [=Trust Anchor=]. Note that a [=Participant Agent=] is a logical construct
   and does not necessarily correspond to a single runtime process.
-- An [=Identity Provider=] is a trust anchor that generates `ID tokens` used to verify the identity of
-  a [=Participant Agent=]. Multiple identity providers may operate in a [=Dataspace=]. The types and semantics of ID
-  tokens are not part of this specification. An [=Identity Provider=] may be a third-party or a [=Participant=] itself (
+- A [=Trust Anchor=] may be used to verify the identity of
+  a [=Participant Agent=]. Multiple [=Trust Anchors=] may exist in one [=Dataspace=]. The types and semantics of ID
+  tokens are not part of this specification. A [=Trust Anchor=] may be a third-party or a [=Participant=] itself (
   for example, in the case of decentralized identifiers).
 - A [=Credential Issuer=] issues _verifiable credentials_ used by [=Participant Agents=] to allow access to [=Datasets=]
   and verify usage control.
